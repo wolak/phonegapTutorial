@@ -17,6 +17,10 @@ var HomeView = function(store) {
 	    });
 	};
 
+	this.show = function() {
+		this.findByName();
+	};
+
     this.initialize();
 }
  
